@@ -1,4 +1,5 @@
-langchain_astradb 
+langchain_astradb
+pandas 
 
 
 -e .
