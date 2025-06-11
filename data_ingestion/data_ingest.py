@@ -50,4 +50,11 @@ class ingest_data:
 
 
 if __name__ == "__main__":
-    data_ingestion = ingest_data()
+    ingest_data = ingest_data()
+    vstore=ingest_data.data_ingestion('None')
+    print('==============AAAWWWWWWW',vstore)
+    # print(len(inserted_ids))
+    results=vstore.similarity_search("can you tellme the low budget headphone")
+    print('==============AAAWWWWWWW',results)
+    for res in results:
+        print(f"{res.content} {res.metadata}")
