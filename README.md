@@ -5,3 +5,6 @@ uvicorn main:app --reload --port 8001
 '''
 WORKFLOW UPDATED
 '''
+'''
+ECR setup
+'''
